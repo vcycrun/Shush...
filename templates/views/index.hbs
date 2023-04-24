@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+</head>
+
+<body>
+    {{>navbar}}
+
+    {{>background}}
+
+    <section id="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="about-text border-right">
+                        <img class="img-fluid"
+                                    src="images/period.jpg"
+                                    alt="" />
+                        <h1>Period</h1>
+                        <p class="">Know when your periods gonna start. What happens during your period?</p>
+                        <button type = "button" class="btn btn-primary" onclick = "location.href='/topic1'">More</button>
+                    </div>
+                </div>
+            
+                <div class="col-md-4">
+                    <div class="about-text border-right">
+                        <img class="img-fluid"
+                                    src="images/pcos.jpg"
+                                    alt="" />
+                        <h1>PCOD & PCOS</h1>
+                        <p>This is very common in women, know what happens during PCOD and PCOS</p>
+                        <button type = "button" class="btn btn-primary" onclick = "location.href='/topic2'">More</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="about-text">
+                        <img class="img-fluid"
+                                    src="images/gyno2.jpg"
+                                    alt="" />
+                        <h1>Gynecological Health</h1>
+                        <p>Your Gynecology check-ups are just as important as any other</p>
+                        <button type = "button" class="btn btn-primary" onclick = "location.href='/topic3'">More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <section id="recent-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="team-top-header text-center">
+                        <h1>Take a Closer look</h1>
+                        <p>Your mental health and sex education is very essential</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="recent-text">
+                                <img class="img-fluid"
+                                    src="images/mental2.jpg"
+                                    alt="" />
+                                <h1>Mental Health</h1>
+                                <p>It helps determine how we handle stress, relate to others, and make healthy choices. </p>
+                                <button type = "button" class="btn btn-primary" onclick = "location.href='/topic4'">More</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="recent-text">
+                                <img class="img-fluid"
+                                    src="images/sexed.jpg"
+                                    alt="" />
+                                <h1>Sex Education</h1>
+                                <p>Sex education aims to teach people how to navigate matters concerning sex, sexuality, and sexual health. </p>
+                                <button type = "button" class="btn btn-primary" onclick = "location.href='/topic5'">More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+
+{{!-- contact us start --}}
+{{>contact}}
+{{!-- contact us ends --}}
+
+
+
+<footer>
+    <section id="team-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="team-top-header text-center">
+                        <h1>Team Member</h1>
+                        {{!-- <p>Megna tempus sed amet</p> --}}
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="team-member-id text-center">
+                                <img class="img-fluid rounded-circle"
+                                    src="images/pic1.jpg"
+                                    alt="" />
+                                <h1>Varun</h1>
+                                <p>Co-founder</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="team-member-id text-center">
+                                <img class="img-fluid rounded-circle"
+                                    src="images/aug pic.jpg"
+                                    alt="" />
+                                <h1>Augustya</h1>
+                                <p>Co-founder</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="team-member-id text-center">
+                                <img class="img-fluid rounded-circle"
+                                    src="images/sneha.jpg"
+                                    alt="" />
+                                <h1>Sneha</h1>
+                                <p>Co-founder</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="team-member-id text-center">
+                                <img class="img-fluid rounded-circle"
+                                    src="images/akshita.jpg"
+                                    alt="" />
+                                <h1>Akshita</h1>
+                                <p>Co-founder</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+<script src="../jq/jquery.js" type="text/javascript"></script>
+<script src="../js/bootstrap.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+    
+    
+ 
+
+</body>
+
+</html>
